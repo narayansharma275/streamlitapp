@@ -18,7 +18,7 @@ DATA_URL = "Penguin_data.csv"
 st.markdown("## **Super Exploratory Visualization on palmerpenguins** \n")
 st.markdown("Explore the dataset to know more about palmerpenguins")
 
-img = Image.open('../images/palmerpenguins.png')
+img = Image.open('images/palmerpenguins.png')
 st.image(img, width=100)
 
 st.markdown(
@@ -27,19 +27,19 @@ st.markdown(
     "The data presented are of 3 different species of penguins - **Adelie, Chinstrap, and Gentoo,** collected from 3 islands in the **Palmer Archipelago, Antarctica.**")
 
 if st.button("Meet the Palmer Penguins"):
-    img = Image.open('../images/lter_penguins.png')
+    img = Image.open('images/lter_penguins.png')
     st.image(img, width=700, caption="We are  Penguin 🐧")
 
     st.markdown(
         "The data was collected and made available by **[Dr. Kristen Gorman](https://www.uaf.edu/cfos/people/faculty/detail/kristen-gorman.php)** and **[Palmer Station, Antarctica, LTER](https://pal.lternet.edu/)**.")
-    images = Image.open('../images/meet.png')
+    images = Image.open('images/meet.png')
     st.image(images, width=600)
     # Ballons
     st.balloons()
 
 st.info(
     " The dataset contains the different aspect between the species like Body Mass (g), Flipper Length (mm), Culmen Length (mm), Culmen Depth (mm) etc.")
-img = Image.open('../images/beak.jpg')
+img = Image.open('images/beak.jpg')
 st.image(img, width=700)
 
 st.sidebar.markdown("## Side Panel")
@@ -59,7 +59,7 @@ def load_data(nrows):
 st.markdown("### Click the button below to explore the dataset through a visualization.")
 
 if st.button("Load Visualization"):
-    img = Image.open('../images/Palmer Penguins.png')
+    img = Image.open('images/Palmer Penguins.png')
     st.image(img, width=700, caption="Viz. created by Narayan. 🐧")
 
     st.markdown(
@@ -73,7 +73,7 @@ data_load_state = st.text('Loading palmerpenguins dataset...')
 df = load_data(100)
 data_load_state.text('Loading palmerpenguins dataset...Completed!')
 
-images = Image.open('../images/meet.png')
+images = Image.open('images/meet.png')
 st.image(images, width=600)
 
 # Showing the original raw data
