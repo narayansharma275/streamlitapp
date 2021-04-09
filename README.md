@@ -10,6 +10,7 @@ Self-exploratory Streamlit app to know more about palmer penguins.
 
 ![Palmerpenguins](https://user-images.githubusercontent.com/25213850/87749976-de726d00-c819-11ea-950c-a9bda29d4d3b.gif)
 
+## Run it Yourself Here - https://penguinstream.herokuapp.com/
 
 ## Requirements
 
